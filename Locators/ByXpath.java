@@ -37,7 +37,7 @@ public class ByXpath {
 		 * Xpath=//input[@type='text']				
 		   Xpath=//label[@id='message23']
 		   Xpath=//input[@value='RESET']
-	       Xpath=//*[@class='barone']
+	           Xpath=//*[@class='barone']
 		   Xpath=//a[@href='http://demo.guru99.com/']
 		   Xpath=//img[@src='//cdn.guru99.com/images/home/java.png']
 */		
