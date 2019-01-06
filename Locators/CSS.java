@@ -26,7 +26,7 @@ public class CSS {
 		WebElement popUpClose = driver.findElement(By.id("push-modal-close"));
 		popUpClose.click();
 		
-	/*	//1. Id
+		//1. Id
 		//<input id="Search" name="token" type="text" class="ui-autocomplete-input" autocomplete="off">
 		WebElement searchBoxbyId = driver.findElement(By.cssSelector("input#Search"));
 		searchBoxbyId.sendKeys("CSS Selector By Id");
@@ -64,7 +64,7 @@ public class CSS {
 		//<a rel="ct_ctnr" href="/Personal-Banking/connect.page?" target="">Ways to Bank</a>
 		WebElement wayToBank = driver.findElement(By.cssSelector("a[href^='/Personal-Banking/connect.page']"));
 		wayToBank.click();
-		Thread.sleep(3000);*/
+		Thread.sleep(3000);
 		
 		
 		//<a rel="ct_ctnr" href="/customer-care.page?" target="">Get in Touch</a>
