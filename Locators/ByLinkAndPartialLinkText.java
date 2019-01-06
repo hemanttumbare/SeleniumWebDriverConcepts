@@ -23,20 +23,22 @@ public class ByLinkAndPartialLinkText {
 		
 		driver.get("https://www.icicibank.com/");
 		
+		//<div id="push-modal-close" >Later</div>
 		WebElement popUpClose = driver.findElement(By.id("push-modal-close"));
 		popUpClose.click();
 		
-		
+		//<a rel="ct_ctnr" href="/Personal-Banking/products.page?" target="">Products</a>
 		WebElement products = driver.findElement(By.linkText("Products"));
 		products.click();
 		
 		Thread.sleep(3000);
-		
+		//<a rel="ct_ctnr" href="/Personal-Banking/payments.page?" target="">Payments</a>
 		WebElement payment = driver.findElement(By.linkText("Payments"));
 		payment.click();
 		
 		Thread.sleep(2000);
 		
+		//<a class="selected" href="/Personal-Banking/connect.page?#toptitle">Ways to Bank</a>
 		WebElement wayToBank = driver.findElement(By.partialLinkText("Ways to"));
 		wayToBank.click();
 		
